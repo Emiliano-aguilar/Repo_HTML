@@ -23,7 +23,13 @@
     margin-top: 5px;
     border-color: white;
     border-style:double;
+    transition: all 5s;
 }
+
+.menu a:hover{
+    font-size: 110%;
+}
+
 
 .texto-fondo-blanco{
     background-color: white;
@@ -81,7 +87,6 @@
 
 
 
-
 section#web-index-menu{
     grid-area: index-menu;
 }
@@ -92,6 +97,10 @@ section#web-index-menu{
 header{
     grid-area: header;
 }
+
+
+
+
 footer{
     grid-area: footer;
 }
@@ -117,7 +126,17 @@ footer{
 
 #web-proyecto-titulos{
     grid-area: proyecto-titulos;
+    height: 100px;
+    transition: all 2s;
 }
+
+#web-proyecto-titulos:hover{
+    font-size: 150%;
+}
+
+
+
+
 #web-proyecto-image{
     grid-area: proyecto-image;
 }
