@@ -114,7 +114,7 @@ footer{
     grid-template-areas: 
     "header header"
     "proyecto-menu proyecto-menu"
-    "proyecto-image proyecto-image"
+    "proyecto-titulos proyecto-titulos"
     "proyecto-titulos proyecto-titulos"
     "footer footer"
     ;
