@@ -1,0 +1,19 @@
+#menu a:hover {
+  font-size: 110%;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+.texto-verde {
+  color: rgb(13, 175, 13);
+}
+
+.fondo {
+  background-image: url(./../img/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
