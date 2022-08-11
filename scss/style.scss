@@ -1,20 +1,8 @@
-#menu a:hover{
-    font-size: 110%;
-}
+@import "colores";
+@import "animaciones";
 
-.texto-blanco{
-    color: white;
-}
-
-.texto-verde{
-    color: rgb(13, 175, 13);
-}
-.fondo{
+.fondo {
     background-image: url(./../img/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-
-

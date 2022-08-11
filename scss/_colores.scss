@@ -1,0 +1,32 @@
+@import "variables";
+header{
+    color: $color-contenido;
+}
+div{
+
+    nav{
+        margin: 0%;
+        padding: 0%;
+    }
+    h4 {
+        margin: 7px;
+        padding: 7px;
+        color:  $color-titulos;
+
+    }
+
+    p{
+        color: $color-contenido;
+    }
+    h2{
+       color:  $color-titulos;
+    }
+
+    h5{
+        color: gray;
+    }
+    label{
+        color: $color-contenido;
+    }
+    
+}
