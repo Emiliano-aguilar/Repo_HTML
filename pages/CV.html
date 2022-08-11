@@ -17,19 +17,31 @@
 
 <body class="fondo texto-blanco" style="width:100%;">
 
+
     <header>
         <h1 class="text-center">CV Emiliano Aguilar</h1>
     </header>
 
-    <div class="container" id="menu">
-        <ol class="nav">
-            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="../pages/CV.html">CV</a></li>
-            <li class="nav-item"><a class="nav-link" href="../pages/proyecto.html">Proyectos</a></li>
-            <li class="nav-item"><a class="nav-link" href="../pages/contactame.html">Contactame</a></li>
-            <li class="nav-item"><a class="nav-link" href="../pages/credenciales.html">Credenciales</a></li>
-        </ol>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-md">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/CV.html">CV</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/proyecto.html">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/contactame.html">Contactame</a>
+                </li>
+  
+  
+              </ul>
+        </div>
+      </nav>
 
 
     <div class="container">
@@ -53,7 +65,7 @@
 
     <div class="container d-flex justify-content-around align-content-around">
 
-        <div class="col-4">
+        <div class="col-4 p-2">
             <h2 class="text-center texto-verde"> Experiencia</h2>
             <div class="">
                 <h6> Banco Supervielle 2018 - actualidad
@@ -99,6 +111,31 @@
 
 
 
+    </div>
+
+    <section class="text-center border-bottom container">
+        <h1>Cursos en CoderHouse</h1>
+    </section>
+    
+    <div class="container d-flex justify-content-around align-content-around">
+            <div class="col-4"> 
+                <h3 class="texto-verde">Desarrollo Web</h3>
+                <h4>Certificado: <iframe src="../img/Desarrollo.pdf" height="100%" width="100%"></iframe>
+                </h4>
+            </div>
+            
+            <div class="col-4">
+                <h3 class="texto-verde">JavaScript</h3>
+                <h4>Inicio: 16/05 </h4>
+                <h4>Fin: 20/05</h4>
+                <h4>Contenido:  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></h4>
+                <h4>Certificado: En tramite</h4>
+            </div>
+            <div class="col-4">
+                <h3 class="texto-verde">Tester QA</h3>
+                <h4>Certificado: <object data="../img/QA.pdf" height="100%" width="100%"></object>
+                </h4>
+            </div>
     </div>
 
     <footer class="blockquote-footer d-flex justify-content-center align-content-end">
