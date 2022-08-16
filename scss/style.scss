@@ -1,9 +1,3 @@
 @import "colores";
 @import "animaciones";
-
-.fondo {
-    background-image: url(./../img/fondo.png);
-    background-repeat:repeat;
-    background-size: cover;
-   
-}
+@import "flex";

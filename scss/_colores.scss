@@ -1,4 +1,10 @@
 @import "variables";
+.fondo {
+    background-color: black;
+    background-repeat:repeat;
+    background-size: cover;
+   
+}
 header{
     color: $color-contenido;
 }
@@ -11,7 +17,7 @@ div{
     h4 {
         margin: 7px;
         padding: 7px;
-        color:  $color-titulos;
+        color:  $color-contenido
 
     }
 
@@ -19,14 +25,14 @@ div{
         color: $color-contenido;
     }
     h2{
-       color:  $color-titulos;
+        color:  $color-contenido
     }
 
     h5{
-        color: gray;
+        color:  $color-contenido
     }
     label{
-        color: $color-contenido;
+        color:  $color-contenido
     }
     
 }

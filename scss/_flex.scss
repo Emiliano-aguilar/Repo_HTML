@@ -1,0 +1,33 @@
+
+
+#cv-credenciales{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 15px;
+
+}
+
+#cv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+}
+
+#inicio{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+#proyectos-web{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
