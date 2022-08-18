@@ -16,32 +16,40 @@ div h4 {
   margin: 7px;
   padding: 7px;
   color: rgb(255, 255, 255);
-  font-weight: 800;
-}
-div h2, div h5, div label {
-  color: rgb(255, 255, 255);
-  font-weight: 500;
 }
 div p {
   color: rgb(255, 255, 255);
-  font-weight: 200;
 }
-
-div h4 img:hover {
-  height: 5%;
-  width: 5%;
+div h2 {
+  color: rgb(255, 255, 255);
 }
-div h4#skills img:hover {
-  height: 4%;
-  width: 4%;
+div h5 {
+  color: rgb(255, 255, 255);
+}
+div label {
+  color: rgb(255, 255, 255);
 }
 
 #menu a:hover {
   font-size: 110%;
 }
 
+div h4 img:hover {
+  width: 5%;
+  height: 5%;
+}
+div h4#skills img:hover {
+  width: 13%;
+  height: 13%;
+}
+
 .card-body:hover {
   font-size: 17px;
+}
+
+#cv-credenciales {
+  justify-content: space-around;
+  padding: 15px;
 }
 
 #cv, #cv-credenciales {
@@ -50,13 +58,8 @@ div h4#skills img:hover {
   flex-wrap: wrap;
 }
 
-#cv-credenciales {
-  justify-content: space-around;
-  padding: 15px;
-}
-
 #inicio {
-  height: 100vh;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +67,6 @@ div h4#skills img:hover {
 
 #proyectos-web {
   display: flex;
-  flex-direction: column;
-}
-
-/*# sourceMappingURL=style.css.map */
+  flex-wrap: wrap;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */

@@ -7,32 +7,31 @@
 }
 header{
     color: $color-contenido;
+    
 }
 div{
 
     nav{
         margin: 0%;
         padding: 0%;
+        
     }
     h4 {
         margin: 7px;
         padding: 7px;
-        color:  $color-contenido
+        color:  $color-contenido;
+        font-weight: map-get($font-weigths, negra);
+        
 
     }
 
+    h2 , h5 , label{
+        color: $color-contenido;
+        font-weight: map-get($font-weigths , media );
+    }
     p{
         color: $color-contenido;
-    }
-    h2{
-        color:  $color-contenido
-    }
-
-    h5{
-        color:  $color-contenido
-    }
-    label{
-        color:  $color-contenido
+        font-weight: map-get($font-weigths ,clara);
     }
     
 }
