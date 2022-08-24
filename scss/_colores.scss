@@ -25,9 +25,12 @@ div{
 
     }
 
-    h2 , h5 , label{
+    
+
+    h2 , h5 , label ,h6{
         color: $color-contenido;
         font-weight: map-get($font-weigths , media );
+
     }
     p{
         color: $color-contenido;
@@ -35,3 +38,5 @@ div{
     }
     
 }
+
+

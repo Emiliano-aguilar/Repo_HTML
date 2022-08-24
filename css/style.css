@@ -18,7 +18,7 @@ div h4 {
   color: rgb(255, 255, 255);
   font-weight: 800;
 }
-div h2, div h5, div label {
+div h2, div h5, div label, div h6 {
   color: rgb(255, 255, 255);
   font-weight: 500;
 }
@@ -55,8 +55,20 @@ div h4#skills img:hover {
   padding: 15px;
 }
 
-#inicio {
+#contenido {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#index {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#inicio {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,6 +77,48 @@ div h4#skills img:hover {
 #proyectos-web {
   display: flex;
   flex-direction: column;
+}
+
+#contactame {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 5px;
+  margin: 5px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#form {
+  width: max-content;
+  height: max-content;
+  padding: 5px;
+  margin: 5px;
+}
+
+#div-form {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  margin: 2px;
+  padding: 2px;
+}
+
+#card {
+  display: flex;
+  flex-direction: row;
+}
+
+#carruseles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
