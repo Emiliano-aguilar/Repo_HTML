@@ -29,12 +29,12 @@ div p {
 
 @media (min-width: 640px) {
   .logo {
-    height: 400000%;
-    width: 400000%;
+    height: 4%;
+    width: 4%;
   }
   .logo:hover {
     height: 5%;
-    width: 55%;
+    width: 4%;
   }
   .img-proyecto {
     height: 100%;
