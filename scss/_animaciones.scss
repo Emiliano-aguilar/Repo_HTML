@@ -5,18 +5,43 @@
 }
 
 
-div{
-    h4{
-        img:hover {
-            @include medidas-animaciones(5%,5% )
-        }
+
+@media(min-width: 640px){
+
+    .logo{
+        @include medidas-animaciones(400000%,400000%);
+
     }
-    h4#skills{
-        img:hover {
-            @include medidas-animaciones(4%,4%)
-        }
+
+    .logo:hover{
+        @include medidas-animaciones(55%,5%);
     }
+
+    .img-proyecto{
+        @include medidas-animaciones(100%, 100%);
+
+    }
+
 }
+
+
+
+.logo{
+    @include medidas-animaciones(4%,4%);
+}
+.logo:hover{
+    @include medidas-animaciones(5%,5%);
+}
+
+
+.img-proyecto{
+    @include medidas-animaciones(60%,75%);
+}
+
+
+
+
+
 
 
 #menu a:hover {
