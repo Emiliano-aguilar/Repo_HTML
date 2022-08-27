@@ -14,11 +14,11 @@
     }
 
     .logo:hover{
-        @include medidas-animaciones(4%,5%);
+        @include medidas-animaciones(5%,5%);
     }
 
     .img-proyecto{
-        @include medidas-animaciones(100%, 100%);
+        @include medidas-animaciones(300px, 300px);
 
     }
 
@@ -27,15 +27,15 @@
 
 
 .logo{
-    @include medidas-animaciones(4%,4%);
+    @include medidas-animaciones(50px,50px);
 }
 .logo:hover{
-    @include medidas-animaciones(5%,5%);
+    @include medidas-animaciones(60px,60px);
 }
 
 
 .img-proyecto{
-    @include medidas-animaciones(60%,75%);
+    @include medidas-animaciones(180px,180px);
 }
 
 
